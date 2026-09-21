@@ -4,7 +4,7 @@ import FloralBloom from "./FloralBloom";
 const lessons = [
   {
     number: "01",
-    image: "/photos/aprendizajes/01.jpeg",
+    image: "./photos/aprendizajes/01.jpeg",
     imagePosition: "center 58%",
     title: "Que los pequeños detalles importan",
     description:
@@ -12,7 +12,7 @@ const lessons = [
   },
   {
     number: "02",
-    image: "/photos/aprendizajes/02.jpeg",
+    image: "./photos/aprendizajes/02.jpeg",
     imagePosition: "center 34%",
     title: "Que querer también es aprender",
     description:
@@ -20,7 +20,7 @@ const lessons = [
   },
   {
     number: "03",
-    image: "/photos/aprendizajes/03.jpeg",
+    image: "./photos/aprendizajes/03.jpeg",
     imagePosition: "63% center",
     title: "Que los días simples también se recuerdan",
     description:
@@ -28,7 +28,7 @@ const lessons = [
   },
   {
     number: "04",
-    image: "/photos/aprendizajes/04.jpeg",
+    image: "./photos/aprendizajes/04.jpeg",
     imagePosition: "center 24%",
     title: "Que todavía tenemos mucho por vivir",
     description:

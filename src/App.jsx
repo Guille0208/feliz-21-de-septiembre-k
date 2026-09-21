@@ -40,7 +40,7 @@ function App() {
     <main>
       <audio
         ref={audioRef}
-        src="/music/afterlife.mp3"
+        src="./music/afterlife.mp3"
         loop
         preload="metadata"
         onPlay={() => setMusicPlaying(true)}

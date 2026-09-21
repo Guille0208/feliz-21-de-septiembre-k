@@ -9,42 +9,42 @@ import FloralBloom from "./FloralBloom";
 
 const photos = [
   {
-    src: "/photos/galeria/foto-01.jpg",
+    src: "./photos/galeria/foto-01.jpg",
     text: "De nuestra primera etapa juntos, saliendo de la academia.",
     position: "center",
   },
   {
-    src: "/photos/galeria/foto-02.jpg",
+    src: "./photos/galeria/foto-02.jpg",
     text: "Tener tiempo para hacer cosas juntos y crear recuerdos eternos.",
     position: "center",
   },
   {
-    src: "/photos/galeria/foto-03.jpg",
+    src: "./photos/galeria/foto-03.jpg",
     text: "Una salida para recordar, aunque no fue largo, es la primera de las que tendremos.",
     position: "center 35%",
   },
   {
-    src: "/photos/galeria/foto-04.jpg",
+    src: "./photos/galeria/foto-04.jpg",
     text: "Me gusta cocinar y me gusta mucho más cuando estás tú conmigo.",
     position: "center",
   },
   {
-    src: "/photos/galeria/foto-05.jpg",
+    src: "./photos/galeria/foto-05.jpg",
     text: "El dulce de las cosas nunca será igual a lo dulce que es estar contigo.",
     position: "center 30%",
   },
   {
-    src: "/photos/galeria/foto-06.jpg",
+    src: "./photos/galeria/foto-06.jpg",
     text: "Ver esos ojitos de miel son de las cosas que más amo.",
     position: "center",
   },
   {
-    src: "/photos/galeria/foto-07.jpg",
+    src: "./photos/galeria/foto-07.jpg",
     text: "Desde que estamos juntos siempre hubo y siempre habrá detalles para ti mi chanchita preciosa.",
     position: "center",
   },
   {
-    src: "/photos/galeria/foto-08.jpg",
+    src: "./photos/galeria/foto-08.jpg",
     text: "Y lo mejor de todo estos recuerdos es pensar que iremos juntos por muchos más.",
     position: "center",
   },

@@ -97,7 +97,7 @@ function Hero({ onStartMusic }) {
                 <div className="relative aspect-[4/5] overflow-hidden rounded-[1.3rem]">
                 {photoAvailable ? (
                   <img
-                    src="/photos/portada.jpg"
+                    src="./photos/portada.jpg"
                     alt="Uno de nuestros recuerdos juntos"
                     onError={() => setPhotoAvailable(false)}
                     className="h-full w-full object-cover object-[center_30%]"

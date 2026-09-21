@@ -9,7 +9,7 @@ const chapters = [
     title: "Nuestra primera foto juntos",
     description:
       "Todavía no éramos pareja, pero ya estábamos comenzando a guardar momentos juntos. Esta fue nuestra primera foto y, aunque en ese momento no sabíamos todo lo que vendría después, hoy tiene un significado muy especial para mí.",
-    image: "/photos/historia/primera-foto.jpg",
+    image: "./photos/historia/primera-foto.jpg",
   },
   {
     number: "02",
@@ -17,7 +17,7 @@ const chapters = [
     title: "Nuestro primer mes juntos",
     description:
       "Cumplíamos nuestro primer mes como pareja. En ese momento parecía muy poco tiempo, pero hoy, al recordar este día, me doy cuenta de que fue el inicio de algo muy bonito. Un recuerdo que siempre guardaré con mucho cariño.",
-    image: "/photos/historia/primer-mes.jpg",
+    image: "./photos/historia/primer-mes.jpg",
   },
   {
     number: "03",
@@ -25,7 +25,7 @@ const chapters = [
     title: "Celebrando tu cumpleaños",
     description:
       "Fue de los días que más me esmeré para que todo fuera bonito para ti. Poder acompañarte, compartir contigo y formar parte de uno de tus días importantes es de lo que me hace feliz.",
-    image: "/photos/historia/cumpleanos.jpg",
+    image: "./photos/historia/cumpleanos.jpg",
   },
   {
     number: "04",
@@ -33,7 +33,7 @@ const chapters = [
     title: "Nuestro primer año juntos",
     description:
       "Sin darnos cuenta, ya habíamos cumplido un año juntos. Doce meses de momentos buenos, aprendizajes, risas, diferencias y muchísimos obstáculos, pero siempre juntos y apoyándonos. Teniendo en mente que queríamos esto para siempre.",
-    image: "/photos/historia/primer-anio.jpg",
+    image: "./photos/historia/primer-anio.jpg",
   },
   {
     number: "05",
@@ -41,7 +41,7 @@ const chapters = [
     title: "Halloween juntos",
     description:
       "Una fecha diferente y muy divertida por lo que hicimos; por eso la quise guardar aquí. Sé que más adelante haremos más cosas parecidas a esta. Solo es cuestión de tiempo y de vivir nuestro amor como se puede.",
-    image: "/photos/historia/halloween.jpg",
+    image: "./photos/historia/halloween.jpg",
   },
 ];
 
