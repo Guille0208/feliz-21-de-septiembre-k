@@ -149,13 +149,14 @@ function MemoriesGallery() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-[#2b1609]/90 p-4 backdrop-blur-md"
+            className="fixed inset-0 z-[70] flex items-center justify-center overflow-y-auto bg-[#2b1609]/92 px-3 py-5 backdrop-blur-md sm:p-6"
             onClick={() => setSelectedIndex(null)}
           >
             {/* Cerrar */}
             <button
               onClick={() => setSelectedIndex(null)}
-              className="absolute right-5 top-5 z-20 flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white transition hover:bg-white/20"
+              className="fixed right-4 top-4 z-30 flex h-12 w-12 items-center justify-center rounded-full border-2 border-amber-300 bg-[#fff8e7]/95 text-amber-950 shadow-lg shadow-black/25 transition hover:scale-105 hover:bg-white sm:right-7 sm:top-7"
+              aria-label="Cerrar fotografía"
             >
               <X className="h-5 w-5" />
             </button>
@@ -166,7 +167,8 @@ function MemoriesGallery() {
                 event.stopPropagation();
                 previousPhoto();
               }}
-              className="absolute left-3 z-20 flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white transition hover:bg-white/20 sm:left-7"
+              className="fixed left-3 top-1/2 z-30 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-amber-300 bg-[#fff8e7]/95 text-amber-950 shadow-lg shadow-black/30 transition hover:scale-105 hover:bg-white sm:left-7 sm:h-14 sm:w-14"
+              aria-label="Fotografía anterior"
             >
               <ChevronLeft className="h-6 w-6" />
             </button>
@@ -177,7 +179,8 @@ function MemoriesGallery() {
                 event.stopPropagation();
                 nextPhoto();
               }}
-              className="absolute right-3 z-20 flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white transition hover:bg-white/20 sm:right-7"
+              className="fixed right-3 top-1/2 z-30 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-amber-300 bg-[#fff8e7]/95 text-amber-950 shadow-lg shadow-black/30 transition hover:scale-105 hover:bg-white sm:right-7 sm:h-14 sm:w-14"
+              aria-label="Fotografía siguiente"
             >
               <ChevronRight className="h-6 w-6" />
             </button>
@@ -190,20 +193,20 @@ function MemoriesGallery() {
               exit={{ opacity: 0, scale: 0.94, y: 18, rotate: 2 }}
               transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
               onClick={(event) => event.stopPropagation()}
-              className="flex max-h-[90vh] max-w-5xl flex-col items-center"
+              className="my-auto flex w-full max-w-5xl flex-col items-center px-7 sm:px-16"
             >
-              <div className="rounded-[1.8rem] border-8 border-[#fff7e4] bg-[#fff7e4] shadow-2xl shadow-black/30">
+              <div className="max-w-full rounded-[1.5rem] border-[6px] border-[#fff7e4] bg-[#fff7e4] shadow-2xl shadow-black/30 sm:rounded-[1.8rem] sm:border-8">
                 <img
                   src={photos[selectedIndex].src}
                   alt="Uno de nuestros recuerdos"
-                  className="max-h-[68vh] max-w-full rounded-[1.25rem] object-contain"
+                  className="max-h-[58vh] max-w-full rounded-[1.1rem] object-contain sm:max-h-[68vh] sm:rounded-[1.25rem]"
                 />
               </div>
 
-              <div className="mt-5 max-w-xl rounded-2xl border border-white/15 bg-white/10 px-7 py-5 text-center backdrop-blur-sm">
-                <p className="font-display text-2xl italic text-[#ffe4a0]">Un recuerdo para siempre</p>
-                <p className="mt-2 text-sm leading-6 text-white/80 sm:text-base">{photos[selectedIndex].text}</p>
-                <p className="mt-3 text-[10px] font-bold tracking-[0.22em] text-amber-200/80">{String(selectedIndex + 1).padStart(2, "0")} · {String(photos.length).padStart(2, "0")}</p>
+              <div className="mt-3 w-full max-w-xl rounded-2xl border border-white/20 bg-[#4a2a18]/95 px-4 py-3 text-center shadow-lg sm:mt-5 sm:px-7 sm:py-5">
+                <p className="font-display text-xl italic text-[#ffe4a0] sm:text-2xl">Un recuerdo para siempre</p>
+                <p className="mt-1.5 text-[13px] leading-5 text-white/90 sm:mt-2 sm:text-base sm:leading-6">{photos[selectedIndex].text}</p>
+                <p className="mt-2 text-[10px] font-bold tracking-[0.22em] text-amber-200 sm:mt-3">{String(selectedIndex + 1).padStart(2, "0")} · {String(photos.length).padStart(2, "0")}</p>
               </div>
             </motion.div>
           </motion.div>

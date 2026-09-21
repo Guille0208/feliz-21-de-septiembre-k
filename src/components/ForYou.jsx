@@ -141,7 +141,7 @@ function LessonCard({ lesson, index }) {
       }}
       className="group grid overflow-hidden rounded-[2rem] border border-amber-200/80 bg-white/90 shadow-[0_14px_32px_-24px_rgba(112,57,9,0.45)] transition-shadow duration-300 hover:shadow-xl hover:shadow-amber-900/10 sm:grid-cols-[12rem_1fr]"
     >
-      <div className="relative min-h-56 overflow-hidden bg-amber-100 sm:min-h-full">
+      <div className="relative aspect-[4/5] overflow-hidden bg-amber-100 sm:aspect-auto sm:min-h-full">
         <img
           src={lesson.image}
           alt={`Recuerdo ${lesson.number}`}
