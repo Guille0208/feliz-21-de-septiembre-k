@@ -29,7 +29,7 @@ const lessons = [
   {
     number: "04",
     image: "./photos/aprendizajes/04.jpeg",
-    imagePosition: "center 24%",
+    imagePosition: "center 30%",
     title: "Que todavía tenemos mucho por vivir",
     description:
       "Todo lo que hemos vivido hasta ahora es solo una parte de nuestra historia. Todavía quedan lugares, días, momentos y recuerdos que quiero seguir descubriendo contigo mi bubucita.",
